@@ -112,3 +112,13 @@ h1 {
     color: white;
     padding: 18px 20px;
 }
+
+/* MAIN */
+main {
+    background-color: #808080;
+}
+
+main .container {
+    padding: 30px 0;
+    text-align: center;
+}
