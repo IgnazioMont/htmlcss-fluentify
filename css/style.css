@@ -7,10 +7,17 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: aquamarine;
 }
 
 img {
     width: 100%;
     display: block;
+}
+
+header {
+    height: 550px;
+    background-image: url("../img/background-header.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 130% 108%;
 }
