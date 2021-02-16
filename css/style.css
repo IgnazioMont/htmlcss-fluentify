@@ -11,7 +11,25 @@ body {
 
 img {
     width: 100%;
+    /*  Per fare in modo che non abbiano spazi strani
+        e che vada su una nuova riga */
     display: block;
+}
+
+/* HEADER */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
 }
 
 header {
@@ -20,4 +38,18 @@ header {
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: 130% 108%;
+    background-color: #0d325a;
+}
+
+.logo {
+    width: 10%;
+}
+
+.menu-mid {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.menu-right {
+    width: 40%;
 }
