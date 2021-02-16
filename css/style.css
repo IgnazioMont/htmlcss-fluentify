@@ -139,18 +139,28 @@ main .goals::after {
 
 .goals {
     padding: 30px 0;
+    text-align: center;
 }
 
 .goals .col {
     float: left;
-    width: 30%;
-    text-align: center;
+    width: 33%;
 }
 
 .col-text {
     display: block;
+    padding: 20px 0;
 }
 
 .col-image img {
     height: 150px;
+}
+
+.col-text h2 {
+    color: #7cbb02;
+}
+
+.col-text hr {
+    width: 50px;
+    margin: 20px auto;
 }
