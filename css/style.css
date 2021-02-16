@@ -130,7 +130,7 @@ main .container {
 }
 
 
-/* Columns */
+/* Section 2 - Columns */
 main .goals::after {
     content: "";
     display: table;
@@ -169,4 +169,30 @@ main .goals::after {
 /* Interlinea fra le righe del testo */
 .col-text p {
     line-height: 1.4;
+}
+
+
+/* Section 3 */
+.two .col img {
+    height: 350px;
+}
+
+.goals.two .col{
+    width: 50%;
+}
+
+.goals.two .col-text h2 {
+    font-size: 35px;
+    color: black;
+}
+
+.goals.two .col-text {
+    padding-right: 30px;
+    text-align: left;
+}
+
+.goals.two .col-text a {
+    color: blue;
+    display: block;
+    padding-top: 20px;
 }
