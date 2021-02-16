@@ -145,6 +145,7 @@ main .goals::after {
 .goals .col {
     float: left;
     width: 33%;
+    padding: 0 10px;
 }
 
 .col-text {
@@ -163,4 +164,9 @@ main .goals::after {
 .col-text hr {
     width: 50px;
     margin: 20px auto;
+}
+
+/* Interlinea fra le righe del testo */
+.col-text p {
+    line-height: 1.4;
 }
