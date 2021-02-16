@@ -45,13 +45,17 @@ header {
     width: 15%;
 }
 
+nav {
+    padding: 20px 0;
+}
+
 .menu-mid {
-    width: 45%;
+    width: 46%;
     padding-left: 30px;
 }
 
 .menu-right {
-    width: 35%;
+    width: 39%;
     text-align: right;
 }
 
@@ -62,10 +66,28 @@ header {
 }
 .menu li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 .menu li a {
     text-decoration: none;
-    font-size: 10px;
+    font-size: 11px;
     color: white;
 }
+
+.menu li .login {
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.button { /* prima di img? */
+    padding: 10px 20px;
+    background-color: #7cbb02;
+    border: 1px solid  #7cbb02;
+    border-radius: 8px;
+}
+
+/* Hover */
+.menu.yellow li:hover a {
+    color: #fff200;
+} 
