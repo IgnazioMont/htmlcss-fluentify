@@ -27,7 +27,7 @@ img {
     float: left;
 }
 /* Container generico che racchiude tutto */
-.container {
+.container, main .goals {
     width: 1050px;
     margin: 0 auto;
 }
@@ -37,7 +37,7 @@ header {
     background-image: url("../img/background-header.png");
     background-size: 1000px;
     background-repeat: no-repeat;
-    background-position: 130% 108%;
+    background-position: 118% 108%;
     background-color: #0d325a;
 }
 
@@ -114,11 +114,19 @@ h1 {
 }
 
 /* MAIN */
-main {
-    background-color: #808080;
+main .container {
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #d3d3d3;
+}
+.container h3 {
+    font-size: 25px;
 }
 
-main .container {
-    padding: 30px 0;
-    text-align: center;
+.gray-text {
+    color: #808080;
+    padding-top: 10px;
 }
+
+.
