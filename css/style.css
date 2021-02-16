@@ -28,7 +28,7 @@ img {
 }
 
 .container {
-    width: 1024px;
+    width: 1050px;
     margin: 0 auto;
 }
 
@@ -42,7 +42,7 @@ header {
 }
 
 .logo {
-    width: 10%;
+    width: 15%;
 }
 
 .menu-mid {
@@ -51,5 +51,21 @@ header {
 }
 
 .menu-right {
-    width: 40%;
+    width: 30%;
+    text-align: right;
+}
+
+.menu {
+    list-style-type: none;
+    padding-top: 10px;
+    /* Oppure line-height */
+}
+.menu li {
+    display: inline-block;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    margin-left: 20%;
 }
