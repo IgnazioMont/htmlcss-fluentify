@@ -131,12 +131,6 @@ main .container {
 
 
 /* Section 2 - Columns */
-main .goals::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .goals {
     padding: 30px 0;
     text-align: center;
