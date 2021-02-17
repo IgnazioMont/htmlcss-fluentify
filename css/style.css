@@ -105,7 +105,7 @@ h1 {
 }
 
 /* Button sovrascritto */
-.teaser .button {
+.teaser .button, .fixed {
     margin-top: 20px;
     display: inline-block;
     text-decoration: none;
@@ -189,4 +189,16 @@ main .container {
     color: blue;
     display: block;
     padding-top: 20px;
+}
+
+/* BUTTON FIXED */
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+    z-index: 1;
+}
+
+footer .button {
+    padding: 10px;
 }
