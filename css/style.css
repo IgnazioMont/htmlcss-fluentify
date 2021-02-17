@@ -114,7 +114,7 @@ h1 {
 }
 
 /* MAIN */
-main .container {
+main .container, footer {
     width: 100%;
     padding: 40px 0;
     text-align: center;
@@ -197,6 +197,14 @@ main .container {
     bottom: 0;
     right: 15%;
     z-index: 1;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+.foot-right {
+    float: right;
 }
 
 footer .button {
